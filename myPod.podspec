@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "myPod"
+  s.name         = "myPod1234"
   s.version      = "0.0.2"
   s.ios.deployment_target = '8.0'
   s.summary      = "My privatePod."
