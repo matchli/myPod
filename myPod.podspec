@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "myPod"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of myPod."
   s.homepage     = "https://github.com/matchli/myPod"
   s.license      = "MIT"
