@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "matchli" => "751191078@qq.com" }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/matchli/myPod.git", :tag => "#{s.version}" }
-  s.source_files  = 'myPod/**/*.{h,m}'
+  s.source       = { :git => "https://github.com/matchli/myPod.git", :tag => s.version }
+  s.source_files  = "myPod/myPod/*.{h,m}"
   s.requires_arc = true
 
 end
