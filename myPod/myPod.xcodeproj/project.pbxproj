@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		09B76CA9204794D300F8124F /* myPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B76C9F204794D300F8124F /* myPod.framework */; };
 		09B76CAE204794D300F8124F /* myPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B76CAD204794D300F8124F /* myPodTests.m */; };
-		09B76CB0204794D300F8124F /* myPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B76CA2204794D300F8124F /* myPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B76CBB2047951500F8124F /* NSDate+TLDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B76CB92047951400F8124F /* NSDate+TLDate.h */; };
+		09B76CBC2047951500F8124F /* NSDate+TLDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B76CBA2047951400F8124F /* NSDate+TLDate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +25,13 @@
 
 /* Begin PBXFileReference section */
 		09B76C9F204794D300F8124F /* myPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = myPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09B76CA2204794D300F8124F /* myPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myPod.h; sourceTree = "<group>"; };
 		09B76CA3204794D300F8124F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B76CA8204794D300F8124F /* myPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B76CAD204794D300F8124F /* myPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myPodTests.m; sourceTree = "<group>"; };
 		09B76CAF204794D300F8124F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B76CB92047951400F8124F /* NSDate+TLDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TLDate.h"; sourceTree = "<group>"; };
+		09B76CBA2047951400F8124F /* NSDate+TLDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TLDate.m"; sourceTree = "<group>"; };
+		09B76CBE204795A000F8124F /* myPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myPod.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +74,10 @@
 		09B76CA1204794D300F8124F /* myPod */ = {
 			isa = PBXGroup;
 			children = (
-				09B76CA2204794D300F8124F /* myPod.h */,
+				09B76CB92047951400F8124F /* NSDate+TLDate.h */,
+				09B76CBA2047951400F8124F /* NSDate+TLDate.m */,
 				09B76CA3204794D300F8124F /* Info.plist */,
+				09B76CBE204795A000F8124F /* myPod.h */,
 			);
 			path = myPod;
 			sourceTree = "<group>";
@@ -93,7 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B76CB0204794D300F8124F /* myPod.h in Headers */,
+				09B76CBB2047951500F8124F /* NSDate+TLDate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B76CBC2047951500F8124F /* NSDate+TLDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

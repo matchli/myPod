@@ -6,14 +6,9 @@
 //  Copyright © 2018年 lq. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#ifndef myPod_h
+#define myPod_h
 
-//! Project version number for myPod.
-FOUNDATION_EXPORT double myPodVersionNumber;
+#import "NSDate+TLDate.h"
 
-//! Project version string for myPod.
-FOUNDATION_EXPORT const unsigned char myPodVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <myPod/PublicHeader.h>
-
-
+#endif /* myPod_h */
