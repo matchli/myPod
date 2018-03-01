@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license	 = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "matchli" => "751191078@qq.com" }
   s.source       = { :git => "https://github.com/matchli/myPod.git", :tag => s.version }
-  s.source_files = "myPod/*.{h,m}"
+  s.source_files = "myPod/myPod/*.{h,m}"
   s.requires_arc = true
 
 end
